@@ -1,8 +1,7 @@
-
 body {
   margin: 0;
   font-family: sans-serif;
-  background-image: url("../img/bg-light.png");
+  background-image: url("bg-light.png");
   background-repeat: repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -11,7 +10,7 @@ body {
 }
 
 body.dark {
-  background-image: url("../img/bg-dark.png");
+  background-image: url("bg-dark.png");
   color: #eee;
 }
 
