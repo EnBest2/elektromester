@@ -1,0 +1,39 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url("../img/bg-light.png");
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  color: #222;
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+body.dark {
+  background-image: url("../img/bg-dark.png");
+  color: #eee;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1em;
+  text-align: center;
+}
+
+body.dark header {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav a {
+  margin: 0 1em;
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+button#toggleMode {
+  margin-left: 1em;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}

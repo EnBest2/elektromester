@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elektromester</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Elektromester</h1>
+    <p>Ez az oldal villanyszerelőknek és tanulóknak készült.</p>
+    <nav>
+      <a href="#">Elmélet</a>
+      <a href="#">Gyakorlat</a>
+      <a href="#">Letöltések</a>
+      <a href="#">Kapcsolat</a>
+      <button id="toggleMode">Sötét/Világos mód</button>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Üdvözöllek!</h2>
+      <p>Itt elérheted a villanyszereléssel kapcsolatos tananyagokat, gyakorlati útmutatókat és letölthető segédanyagokat.</p>
+    </section>
+  </main>
+  <script>
+    const toggle = document.getElementById("toggleMode");
+    toggle.addEventListener("click", () => {
+      document.body.classList.toggle("dark");
+    });
+  </script>
+</body>
+</html>
